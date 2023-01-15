@@ -8,7 +8,10 @@
 @import "font-awesome";
 
 // Your CSS partials
+@import "base/reset";
+@import "base/base";
 @import "components/index";
+@import "components/newsletter";
 @import "pages/index";
 @import "pages/hero";
 @import "pages/steps";

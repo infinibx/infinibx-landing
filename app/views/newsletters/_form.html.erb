@@ -1,0 +1,25 @@
+  <%# <%= form_for (Newsletter.new) do |f| %>
+    <%# <div class="col-md-12" style="margin: 0 auto; padding: 0;">
+      <div class="col-md-6" style="padding: 0;">
+        <%= f.text_field :name, class: 'form-control', placeholder:'Nombre' %>
+      <%# </div>
+      <div class="col-md-6" style="padding: 0;">
+        <%= f.text_field :email, class: 'form-control', placeholder:'Email' %>
+      <%# </div>
+    </div>
+    <div class="col-md-12" style="margin: 0 auto; padding:0;">
+      <%= f.submit class:"col-md-12" %>
+    <%# </div>
+  <% end %>
+
+  <div class='newsletter'>
+  <h3>Bist du bereit, der Community beizutreten?</h3>
+  <p>Verfolgst du unseren Start, und erhalte 10% Rabatt auf deine erste Box</p>
+  <div class='newsletter-form'>
+      <%= form_for (Newsletter.new) do |f| %>
+        <%= f.text_field :name, placeholder:'Name' %>
+        <%= f.email_field :email, placeholder:'Email' %>
+        <%= f.submit 'Ich bin dabei', class: 'button-primary' %>
+      <% end %>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+:root {
+  --brand-yellow: #EA9C07;
+  --brand-pink: #EB6660;
+  --brand-medium-pink: #F5A2A7;
+  --brand-baby-pink: #FFE0EE;
+  --brand-light-yellow: #FEFDCA;
+  --brand-white: #FFFFFD;
+  --brand-gray: #F4EBE9;
+  --brand-black: #172226;
+  --header-font: 'League Spartan', serif;
+  --subtitle-font: 'Roboto', sans-serif;
+  --body-font: 'Raleway', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 62.5%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.15;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: var(--brand-black);
+  font-family: var(--body-font);
+  font-size: 15.5px;
+  line-height: $line-height-base;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
