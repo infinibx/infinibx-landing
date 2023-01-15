@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+  padding: 1.2rem 2.2rem;
+}
+
+.button-primary {
+  background-color: var(--brand-pink);
+  color: var(--brand-white)
+}
+
+.button-secondary {
+  background-color: var(--brand-black);
+  color: var(--brand-white)
+}

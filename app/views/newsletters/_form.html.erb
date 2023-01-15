@@ -15,11 +15,13 @@
   <div class='newsletter'>
   <h3>Bist du bereit, der Community beizutreten?</h3>
   <p>Verfolgst du unseren Start, und erhalte 10% Rabatt auf deine erste Box</p>
-  <div class='newsletter-form'>
-      <%= form_for (Newsletter.new) do |f| %>
+  <div class='newsletter-form mt-3'>
+    <%= form_for (Newsletter.new) do |f| %>
+      <div class="inputs mt-3">
         <%= f.text_field :name, placeholder:'Name' %>
         <%= f.email_field :email, placeholder:'Email' %>
-        <%= f.submit 'Ich bin dabei', class: 'button-primary' %>
-      <% end %>
-    </div>
+      </div>
+      <%= f.submit 'Ich bin dabei', class: 'button button-secondary mt-3' %>
+    <% end %>
+  </div>
 </div>

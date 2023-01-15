@@ -1,0 +1,23 @@
+.posts {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.posts img {
+  width: 150px;
+  margin: 15px;
+  border-radius: 2px;
+  flex: 1;
+}
+
+.insta-link {
+  display: block;
+  margin: 3rem auto;
+  text-align: center;
+  width: 250px;
+}
+
+.insta-link:hover {
+  color: var(--brand-white);
+  text-decoration: none;
+}

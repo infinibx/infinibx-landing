@@ -5,7 +5,7 @@ class NewslettersController < ApplicationController
   def create
     @newsletter = Newsletter.create(newsletter_params)
     if @newsletter.save
-      redirect_to blog_index_path
+      redirect_to root_path
     else
       redirect_to root_path
     end
