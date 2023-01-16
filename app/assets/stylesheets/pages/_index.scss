@@ -1,2 +1,15 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.slogan {
+  height: 400px;
+  background-color: var(--brand-pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan h2 {
+  font-size: 100px;
+  color: var(--brand-baby-pink);
+}
