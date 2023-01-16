@@ -46,6 +46,11 @@ a {
   background-color: transparent;
 }
 
+a:hover {
+  text-decoration: none;
+  color: var(--brand-white);
+}
+
 button,
 input,
 optgroup,
