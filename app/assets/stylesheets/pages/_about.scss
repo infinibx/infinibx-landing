@@ -4,11 +4,12 @@
 
 .about-img {
   width: 750px;
-  height: 320px;
+  height: 300px;
   object-fit: cover;
-  object-position: 12px 32%;;
+  object-position: 12px 35%;;
   display: block;
   margin: auto;
+  filter: grayscale(10%);
 }
 
 .about-text {
